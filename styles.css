@@ -166,7 +166,7 @@ nav a:hover {
    border: 1px solid black;
  }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) { /* For sizes similar to a tablet */
   nav a {
     padding: 8px 16px;
     font-size: 16px;
@@ -189,7 +189,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) { /* For sizes similar to a phone */
   nav a {
     padding: 6px 12px;
     font-size: 14px;
