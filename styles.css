@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  --project-background-color: rgba(160, 105, 100, 0.4)
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media {
+  max-width: 1000px;
+}
+
+#background {
+  z-index: -1;
+  position: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  opacity: 60%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(200,165,0);
+  width: 100%;
+  z-index: 3;
+  justify-content: center;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.me {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.me, .me-p {
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.me-p {
+  padding-bottom: 20px;
+}
+
+#resume {
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 15pt;
+    color: black;
+    background-color: transparent;
+    margin: 10px 10px;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+#resume:hover {
+  background-color: rgba(0, 150, 190, 0.45);
+}
+
+nav {
+  display: flex;
+  padding: 0;
+  justify-content: 0;
+}
+
+nav a {
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#welcome-section {
+  text-align: center;
+}
+
+#project-header {
+  text-align: center;
+  font-size: 40px !IMPORTANT;
+  font-weight: bold;
+  padding-top: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project-tile {
+  opacity: 75%;
+  width: 20%;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project1, .project2, .project3, .project4 {
+  background-color: var(--project-background-color);
+  margin: 10px 5px;
+  box-sizing: border-box;
+  width: calc(30%);
+  padding: 10px 10px 20px 10px;
+  display: inline-box;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  
+}
+
+.project1, .project3 {
+  margin-left: 250px;
+}
+
+.project2, .project4 {
+  margin-right: 250px;
+}
+#projects img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#projects p {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+#contact img {
+  width: 100px;
+  padding-left: 25px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+ #mail {
+   width: 130px !IMPORTANT;
+ }
+
+ #contact-footer {
+   display: block;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 50px;
+ }
+
+ .line {
+   border: 1px solid black;
+ }
+
+
+
+
+
