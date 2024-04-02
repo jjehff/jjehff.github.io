@@ -172,21 +172,30 @@ nav a:hover {
     font-size: 16px;
   }
 
-  .project {
-    width: calc(100% - 20px);
+.project1, .project2, .project3, .project4 {
+  background-color: var(--project-background-color);
+  margin: 10px auto;
+  width: 40%;
   }
 
-  #project-header {
+#project-header {
     font-size: 24px;
   }
 
-  #welcome-section {
+#welcome-section {
     padding: 60px 10px;
   }
 
-  #contact {
+#contact {
     padding: 40px 10px;
   }
+
+#contact-footer {
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+   font-size: 30px;
+ }
 }
 
 @media only screen and (max-width: 480px) { /* For sizes similar to a phone */
@@ -195,27 +204,29 @@ nav a:hover {
     font-size: 14px;
   }
 
-  .project {
-    width: calc(100% - 10px);
-    padding: 15px;
+.project1, .project2, .project3, .project4 {
+    background-color: var(--project-background-color);
+    margin: 10px auto;
+    width: 40%;
   }
 
-  #project-header {
+#project-header {
     font-size: 20px;
   }
 
-  #welcome-section {
+#welcome-section {
     padding: 40px 10px;
   }
 
-  #contact {
-    padding: 30px 10px;
+#contact {
+    width: auto;
+    
   }
 
-  #contact-footer {
-    font-size: 18px;
-  }
+ #contact-footer {
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+   font-size: 30px;
+ }
 }
-
-
-
