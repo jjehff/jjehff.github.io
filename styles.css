@@ -8,10 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media {
-  max-width: 1000px;
-}
-
 #background {
   z-index: -1;
   position: fixed;
@@ -170,7 +166,56 @@ nav a:hover {
    border: 1px solid black;
  }
 
+@media only screen and (max-width: 768px) {
+  nav a {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
 
+  .project {
+    width: calc(100% - 20px);
+  }
+
+  #project-header {
+    font-size: 24px;
+  }
+
+  #welcome-section {
+    padding: 60px 10px;
+  }
+
+  #contact {
+    padding: 40px 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav a {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .project {
+    width: calc(100% - 10px);
+    padding: 15px;
+  }
+
+  #project-header {
+    font-size: 20px;
+  }
+
+  #welcome-section {
+    padding: 40px 10px;
+  }
+
+  #contact {
+    padding: 30px 10px;
+  }
+
+  #contact-footer {
+    font-size: 18px;
+  }
+}
 
 
 
