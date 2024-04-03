@@ -172,6 +172,11 @@ nav a:hover {
     font-size: 16px;
   }
 
+  .me {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
 .project1, .project2, .project3, .project4 {
   background-color: var(--project-background-color);
   margin: 10px auto;
@@ -204,6 +209,11 @@ nav a:hover {
     font-size: 14px;
   }
 
+  .me {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
 .project1, .project2, .project3, .project4 {
     background-color: var(--project-background-color);
     margin: 10px auto;
